@@ -1,5 +1,5 @@
 {
-  "name": "node-red-node-1wire",
+  "name": "node-red-contrib-1wire",
   "version": "0.0.1",
   "description": "A Node-RED node to read a 1-wire temperature sensor",
   "license": "Apache",

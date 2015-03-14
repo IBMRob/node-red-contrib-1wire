@@ -1,4 +1,4 @@
-node-red-1wire
+node-red-contrib-1wire
 =================
 
 A <a href="http://nodered.org" target="_new">Node-RED</a> node to read a 1-wire DS18B20 temp sensor.
