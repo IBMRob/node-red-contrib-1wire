@@ -28,7 +28,7 @@ module.exports = function(RED) {
 		var data = fs.readFileSync(filename, "utf8");
 		var re = new RegExp("YES");
 		if (re.test(data)) {
-			var test = data.match(/t=(\d*)/);
+			var test = data.match(/t=(-?\d*)/);
 			if ( this.format == 1 ) {
 				msg.payload = test[1]/1000;
 			} else {
